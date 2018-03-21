@@ -11,6 +11,7 @@ SOURCES = {
     'allLibsNamespace.libB': 'microlibs/libB',
 }
 
+
 def install_microlibs(sources, develop=False):
     """ Use pip to install all microlibraries.  """
     print("installing all microlibs in {} mode".format(
@@ -69,3 +70,4 @@ setup(
     },
     py_modules=['libAsrc'],
 )
+# remove later

@@ -1,6 +1,3 @@
 #!/usr/bin/env bash
-cd microlibs/libA
-tox -e $(echo py$TRAVIS_PYTHON_VERSION | tr -d .)
-cd ..
-cd libB
+cd microlibs
 tox -e $(echo py$TRAVIS_PYTHON_VERSION | tr -d .)
